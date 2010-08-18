@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=rmanage
+Comment= Remotely monitoring the LAN for connected machines
+Exec=rmanage
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=GNOME;GTK;System;
+

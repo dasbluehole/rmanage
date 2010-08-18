@@ -1,0 +1,36 @@
+-=|rmanage|=-
+This tool "rmanage" is a tool for monitoring the LAN for connected machines.
+
+Steps :
+	1) YOU HAVE TO BE SUPER USER
+	2) On the GUI click "Find" button
+	   This displays you the NICs and there informations.
+	3) Click on a configured NIC (i.e it should show you something like  2	TRUE	eth0	192.168.1.195	255.255.255.0	C6:50:36:XX:XX:XX)
+	4) A window(nodes) will pop-up
+	   The content(columns) of the window is IP, MAC, hostname and Alive.
+	5) If a node is alive Then the Alive colomn coresponding to that IP is up.
+	6) Double click on a Row with Alive = true
+	7) Another window will pop-up with Window name as hostname.domain(IP address) for the selected machine.
+	8) The content of the window will display the Protocol and port if active on the Target machine.( NOTE: depends on Configuration)
+	9) Click on a protocol port application if the protocol is up and running and the port is open, Then the associated application will 
+	   start.
+
+Configuration File:
+
+	The configuration file is a simple text file should be in /etc/rmanage/
+	The name of configuration file is rmanage.cnf
+	
+	example configuration File:
+########
+### proto port app ###########
+[protocol]
+ssh 22 ssh
+telnet 23 telnet
+vnc 2500 swan
+[other]
+
+
+
+
+
+
