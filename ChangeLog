@@ -1,0 +1,21 @@
+rmanage 0.1.8
+- date(18th Aug 2010)
+- rewrote  device *my_get_device_list() in src/utility.c
+  This is done to accomadate ppp connection
+
+rmanage 0.1.7
+- Code for MAC ID added
+- Find button Bug (replicated columns) fixed (parag)
+
+rmanage 0.1.6
+- added translation file de.po
+
+rmanage 0.1.5
+- Added desktop file
+
+rmanage 0.1.4
+- bug fix: about dialog not closing
+
+rmanage 0.1.3
+- initial public release on rmanage.googlecode.com
+

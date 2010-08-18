@@ -1,0 +1,8 @@
+########
+### proto port app ###########
+[protocol]
+ssh 22 ssh
+telnet 23 telnet
+vnc 2500 swan
+[other]
+
